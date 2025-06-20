@@ -193,7 +193,7 @@
       </transition>
 
       <div class="resume-link-container">
-        <a href="/public/resume.pdf" target="_blank" rel="noopener" class="resume-link">
+        <a href="/resume.pdf" target="_blank" rel="noopener" class="resume-link">
           GRAB A PDF OF MY FULL RESUME
         </a>
       </div>
