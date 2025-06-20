@@ -62,7 +62,7 @@
   inset: 0;
   background: url('../assets/Profile.png') center center/cover no-repeat;
   z-index: 1;
-  filter: brightness(0.7);
+  filter: brightness(0.9);
 }
 
 .background-gradient {

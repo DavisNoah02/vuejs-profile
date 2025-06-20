@@ -12,9 +12,12 @@
           <p>
             I enjoy being the bridge between engineering and design, and feel right at home as a
             front end engineer. Driven by a passion for creating impactful solutions, I thrive on
-            learning and tackling new challenges. I'm committed to leveraging technology to make a
-            real difference. I'm experienced in developing and designing products for the web, from
-            simple landing pages to full-fledged web apps.
+            learning and tackling new challenges. I'm experienced in developing and designing
+            products for the web, from simple landing pages to full-fledged web apps.
+          </p>
+          <p>
+            Deeply passionate about technology, I'm committed to leveraging technology to make a
+            real difference.
           </p>
           <p>
             Always open to discussing new projects, creative ideas, or opportunities to be part of
@@ -80,18 +83,29 @@
             <div class="exp-header">
               <div class="job-info">
                 <h3 class="company">Fusional Tech</h3>
-                <p class="job-title">Software Engineer Co-op</p>
+                <p class="job-title">Founder / Developer</p>
               </div>
               <div class="duration">June 2025 – Present</div>
             </div>
 
             <ul class="description">
               <li>
-                Built major features of Fusional's customer-facing app with Vue.js, Tailwind CSS,
-                Node.js, and REST APIs
+                Founded Fusional Tech, a creative digital agency focused on building fast,
+                responsive, and accessible web applications for startups and SMEs.
               </li>
-              <li>Proposed and implemented user-centered designs across web/mobile apps</li>
-              <li>Engineered cloud services interacting with internal & external APIs</li>
+              <li>
+                I design and develop client solutions using React, Vue.js, Next.js, Tailwind CSS,
+                Node.js, and REST APIs from initial pitch to deployment.
+              </li>
+              <li>
+                I manage client communication, discovery calls, UX research, and iterative delivery
+                to ensure 100% satisfaction and retention.
+              </li>
+
+              <li>
+                I built and consistentlymaintain Fusional's brand, website, case studies, and social
+                media presence to attract high-quality leads.
+              </li>
             </ul>
           </div>
 
@@ -101,13 +115,17 @@
                 <h3 class="company">Freelance</h3>
                 <p class="job-title">Freelance Web Developer</p>
               </div>
-              <div class="duration">Jan 2023 – Present</div>
+              <div class="duration">September 2023 – Present</div>
             </div>
 
             <ul class="description">
               <li>Developed responsive apps with Vue.js, React, Angular</li>
               <li>Delivered custom client solutions for business needs</li>
               <li>Optimized for performance & UX best practices</li>
+              <li>
+                Engineered scalable backend services for authentication, content management, and API
+                integrations using Express and MongoDB.
+              </li>
             </ul>
           </div>
 
@@ -115,7 +133,7 @@
             <div class="exp-header">
               <div class="job-info">
                 <h3 class="company">Electratech Innovation Limited (ETI)</h3>
-                <p class="job-title">Web Developer  Intern</p>
+                <p class="job-title">Web Developer Intern</p>
               </div>
               <div class="duration">May 2024 – September 2024</div>
             </div>
@@ -136,7 +154,6 @@
                 Digital and audience marketing through managing and optimizing social media accounts
                 and email marketing campaigns.
               </li>
-              
             </ul>
           </div>
         </div>
@@ -144,12 +161,12 @@
 
       <transition name="fade" appear>
         <section
-         v-motion="{
-          initial: motionVariants.initial,
-          enter: { ...motionVariants.enter, transition: { delay: 0.3 } },
-        }"
-        class="experience card-glass"
-      >
+          v-motion="{
+            initial: motionVariants.initial,
+            enter: { ...motionVariants.enter, transition: { delay: 0.3 } },
+          }"
+          class="experience card-glass"
+        >
           <h4 class="section-title">PROJECTS</h4>
           <div class="projects-list">
             <div class="project-item">
@@ -232,6 +249,7 @@ const motionVariants = {
 .right-inner {
   width: 90%;
   max-width: 800px;
+  text-align: justify; /* Add this line to justify all text */
 }
 
 .card-glass {
