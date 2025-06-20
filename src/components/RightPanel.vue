@@ -193,7 +193,7 @@
       </transition>
 
       <div class="resume-link-container">
-        <a href="/resume.pdf" target="_blank" rel="noopener" class="resume-link">
+        <a href="/src/assets/NOAH-DAVE-MUNENE-CV.pdf" target="_blank" rel="noopener" class="resume-link">
           GRAB A PDF OF MY FULL RESUME
         </a>
       </div>
