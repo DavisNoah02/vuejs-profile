@@ -30,12 +30,11 @@
         <h4 class="section-title">Skills</h4>
         <div class="skills-content">
           <div class="skill-line">
-            <strong>LANGUAGES:</strong> JavaScript (ES6), HTML5, CSS3, Java, Python, TypeScript,
-            React, Node.js, Next.js, Express.js, Bootstrap5, TailwindCSS
+            <strong>LANGUAGES:</strong> JavaScript (ES6), HTML5, CSS3,  Python, TypeScript,
+            React, Node.js, Next.js,React, Express.js, Bootstrap5, TailwindCSS.
           </div>
           <div class="skill-line">
-            <strong>LIBRARIES & FRAMEWORKS:</strong> jQuery, Bootstrap, Node, MongoDB, Express,
-            React
+            <strong>LIBRARIES & FRAMEWORKS:</strong> jQuery, Bootstrap, Node, MongoDB, Express.
           </div>
           <div class="skill-line">
             <strong>TOOLS:</strong> Git & Github, AWS Command Line, VS Code, Postman, Figma, Docker,
@@ -115,7 +114,7 @@
                 <h3 class="company">Freelance</h3>
                 <p class="job-title">Freelance Web Developer</p>
               </div>
-              <div class="duration">September 2023 – Present</div>
+              <div class="duration">September 2024 – Present</div>
             </div>
 
             <ul class="description">
@@ -242,14 +241,14 @@ const motionVariants = {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 40px 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .right-inner {
   width: 90%;
   max-width: 800px;
-  text-align: justify; /* Add this line to justify all text */
+  text-align: justify;
 }
 
 .card-glass {
