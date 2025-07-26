@@ -4,7 +4,7 @@ A modern, responsive developer portfolio built with Vue 3, Vite, and Framer Moti
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Modern Vue 3 + Vite stack
 - Responsive design for desktop and mobile
@@ -46,7 +46,7 @@ index.html          # Main HTML template, includes Vercel Analytics
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repo:**
    ```sh
@@ -94,7 +94,7 @@ index.html          # Main HTML template, includes Vercel Analytics
 
 ---
 
-## ✨ Customization
+##  Customization
 
 - **Colors and gradients:** Edit in `main.css` and component `<style>` blocks.
 - **Animations:** Tweak `motionVariants` in `RightPanel.vue` for custom effects.
@@ -105,16 +105,6 @@ index.html          # Main HTML template, includes Vercel Analytics
 ## 📑 License
 
 MIT – use, modify, and share freely.
-
----
-
-## 🙏 Credits
-
-- [Vue.js](https://vuejs.org/)
-- [Vite](https://vitejs.dev/)
-- [@vueuse/motion](https://motion.vueuse.org/)
-- [Font Awesome](https://fontawesome.com/)
-- [Vercel](https://vercel.com/)
 
 ---
 
